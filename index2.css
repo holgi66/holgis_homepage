@@ -1,7 +1,7 @@
 span {
 }
 
-.Mopped {
+.Bilder {
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px auto 100px; 
   column-gap: 10px;
