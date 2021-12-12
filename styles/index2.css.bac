@@ -1,14 +1,8 @@
 <style>
-@supports (display:grid) {
-	.inside {
-		max-wigth: 600px;
-	}
-}
-
 .grid-container {
 	display: grid;
-	grid-template-rows: 125px 125px 125px;
-	grid-template-columns: 125px 125px 125px;
+	grid-template-rows: 125px [Line1] 125px [Line2] 125px [Line3] ;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 5px;
 
 }
@@ -75,6 +69,7 @@
         grid-column: 3;
         grid-row: 3;
 }
+
 
 </style>
 
