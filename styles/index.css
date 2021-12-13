@@ -1,0 +1,126 @@
+@supports (display:grid) {
+	.inside {
+		max-wigth: 300px;
+	}
+
+.header-border {
+		max-wigth: 300px;
+		align-items: center;
+		border: black 6px solid;
+	}
+
+.grid-container {
+	display:grid;
+	grid-template-rows: 125px 125px 125px;
+	grid-template-columns: 125px 125px 125px;
+	grid-gap: 5px;
+}
+
+.grid-item1 {
+	background: rgb(100, 90, 80);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: black 4px solid;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid-item2 {
+	background: rgb( 50, 80, 30);
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+	grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+}
+
+.grid-item3 {
+        background: rgb( 0, 191, 255);
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+}
+
+.grid-item4 {
+        background: rgb(218, 112, 214);
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+}
+
+.grid-item5 {
+        background: rgb(55, 256, 123) ;
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+}
+
+.grid-item6 {
+        background: rgb(192, 192, 192);
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+}
+
+.grid-item7 {
+        background: rgb(216, 165, 32);
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+}
+
+.grid-item8 {
+        background: rgb(250, 128, 114);
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+}
+
+.grid-item9 {
+        background: rgb(173, 255, 47);
+	display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 4px solid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+}
+}

@@ -1,53 +1,82 @@
 <!doctype html>
-
 <html>
 
 <head>
-     <title>  erste webseite </title>
-     <meta charset="UTF-8">
+
+<title>zweite Seite</title>
+<meta charset="UTF-8"> <!-- ASCII, UTF-8, Windows-nnnn? -->
+
+<link href="./styles/index.css" rel="stylesheet">
+
+<div class="header-border">
+           <h1>Holgis PART SHOP
+           </h1> <!-- h1 - header -->
+</div>
+
 </head>
+
 <body>
 
-<h1>Das ist meine erste Webseite</h1>
-<h2>2021/12/08</h2>
 
-<p>bin gespannt</p>
+	<h2>Stand: 2021-12-08</h2>
+	<h3>Parts</h3>
 
-<p>sche...., es geht </p>
+<p>Vor Weihnachten platzt das Lager aus allen Naeten</p>
 
-<a href="ordner/index.html">kopiert aus meinem Hirn</a>
+<p>Was ich alles habe!
 
-<p> erste Aenderung ueber einen Branch des Github </p>
-
-<p> bin jetzt noch mehr gespannt </p>
-
-<p> nun eine Liste die Ungeordnet ist: </p>
-
-<ul>
-	Teil1
-	Teil2
-	Teil4
-	Teil3
-</ul>
-
-<p> hier eine geordnete Liste mit ol: </p>
-
-<ol>
-  <li>Fahre bis zum Ende der Straße</li>
-  <li>Biege rechts ab</li>
-  <li>Fahre geradeaus über die nächsten beiden Verkehrskreisel</li>
-  <li>Biege nach dem dritten Kreisel links ab</li>
-  <li>Nach 300000 Metern ist die Schule auf der rechten Seite</li>
-</ol>
-
-<p>Hier steht der LINK zu meiner zweiten Seite
-
-<a href="index2.html"> Holgis zweite Webseite</a>.
+Lesen sie mehr auf <a href="https://www.ich.de/Lager/...">Mein Lagerinhalt</a>
 
 </p>
 
-<p> bei Fragen bitte eine Mail an Niemanden </p>
-<a href="mailto:niemanden@banane.org">Senden Sie eine E-Mail an Niemanden</a>
+	<h2>Fakultät-Rechner</h2>
+<input id="eingabe" type="text" value="5">
+<input id="button" type="button" value="ok">
+<input id="ausgabe" type="text">
+
+<div>
+Fuer einen Rabat von 10 Prozent!
+</div>
+<div>
+Mus aber erst einmal ein Grid geloest werden!
+</div>
+
+<script src="scripts/index.js" type="module"> </script>
+
+<p> Tippen Sie auf Teile einer Harley </p>
+
+<div class="grid-container">
+
+	<div class="grid-item1">
+	   <img src="pictures/biker01.jpg" width="100px" height="100px" >
+	</div>
+	<div class="grid-item5">
+	   <img src="pictures/biker02.jpg" width="100px" height="100px">
+	</div>
+	<div class="grid-item7">
+	   <img src="pictures/biker03.jpg" width="100px" height="100px">
+	</div>
+	<div class="grid-item4">
+	   <img src="pictures/teil01.jpg" width="100px" height="100px">
+	</div>
+	<div class="grid-item2">
+           <img src="pictures/teil02.jpg" width="100px" height="100px">
+	</div>
+	<div class="grid-item9">
+	   <img src="pictures/teil03.jpg" width="100px" height="100px">
+	</div>
+	<div class="grid-item3">
+	   <img src="pictures/teil04.jpg" width="100px" height="100px">
+	</div>
+	<div class="grid-item8">
+	   <img src="pictures/teil05.jpg" width="100px" height="100px">
+	</div>
+	<div class="grid-item6">
+	   <img src="pictures/teil06.jpg" width="100px" height="100px">
+	</div>
+</div>
 
 
 </body>
+
+</html>
