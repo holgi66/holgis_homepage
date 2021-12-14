@@ -11,3 +11,9 @@ return m;
 
 var dieZahl = document.getElementById("eingabe").value;
 document.getElementById("ausgabe").value = faculty_uebung (dieZahl)
+
+function test(){
+    console.log("Test Funktion")
+}
+
+document.getElementById("button").addEventListener("click", test);
