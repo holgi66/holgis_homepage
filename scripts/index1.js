@@ -41,7 +41,9 @@ function appendNeun() {adNumberToTheTextbox (9);}
 function appendReset() {
 Zahlenwerte = " ";
 document.getElementById("eingabe").value = Zahlenwerte;
+document.getElementById("ausgabe").value = Zahlenwerte;
 }
+
 
 function faculty( zahl ) {
     var m = 1;
@@ -52,108 +54,11 @@ function faculty( zahl ) {
     return m;
     }
 
-
-/* var Zahlenwerte = ""
-
-document.getElementById("B0").addEventListener("click",appendNull);
-
-function appendNull() {
-Zahlenwerte = Zahlenwerte + "0";
-document.getElementById("ausgabefeld").value = Zahlenwerte;
-}
-document.getElementById("B1").addEventListener("click",appendEins);
-
-function appendEins() {
-Zahlenwerte = Zahlenwerte + "1";
-document.getElementById("ausgabefeld").value = Zahlenwerte;
-}
-document.getElementById("B2").addEventListener("click",appendZwei);
-
-function appendZwei() {
-Zahlenwerte = Zahlenwerte + "2";
-document.getElementById("ausgabefeld").value = Zahlenwerte;
-}
-document.getElementById("B3").addEventListener("click",appendDrei);
-
-function appendDrei() {
-Zahlenwerte = Zahlenwerte + "3";
-document.getElementById("ausgabefeld").value = Zahlenwerte;
-}
-document.getElementById("B4").addEventListener("click",appendVier);
-    
-    function appendVier() {
-    
-    Zahlenwerte = Zahlenwerte + "4";
-    document.getElementById("ausgabefeld").value = Zahlenwerte;
-    }
-    document.getElementById("B5").addEventListener("click",appendFuenf);
-    
-    function appendFuenf() {
-    
-    Zahlenwerte = Zahlenwerte + "5";
-    document.getElementById("ausgabefeld").value = Zahlenwerte;
-    }
-    document.getElementById("B6").addEventListener("click",appendSechs);
-    
-    function appendSechs() {
-    Zahlenwerte = Zahlenwerte + "6";
-    document.getElementById("ausgabefeld").value = Zahlenwerte;
-    }
-    document.getElementById("B7").addEventListener("click",appendSieben);
-    
-    function appendSieben() {
-    Zahlenwerte = Zahlenwerte + "7";
-    document.getElementById("ausgabefeld").value = Zahlenwerte;
-    }
-    
-    document.getElementById("B8").addEventListener("click",appendAcht);
-    
-    function appendAcht() {
-    Zahlenwerte = Zahlenwerte + "8";
-    document.getElementById("ausgabefeld").value = Zahlenwerte;
-    }
-    document.getElementById("B9").addEventListener("click",appendNeun);
-    
-    function appendNeun() {
-        Zahlenwerte = Zahlenwerte + "9";
-        document.getElementById("ausgabefeld").value = Zahlenwerte;
-        }
-        document.getElementById("Reset").addEventListener("click",appendReset);
+       
         
-        function appendReset() {
-        Zahlenwerte = " ";
-        document.getElementById("ausgabefeld").value = Zahlenwerte;
-        }
-        
-        
-        function faculty( zahl ) {
-        var m = 1;
-        for(var n = 1; n <= zahl; n++) {
-        m = m * n;
-        console.log(m);
-        };
-        return m;
-        }
-        
-        /*function faculty( zahl ) {
-        var n = 1; // Zum hochzaehlen
-        var m = 1; // Ergebnis (Fakultät)
-        while ( n <= zahl ) {
-        m = m * n;
-        n = n + 1;
-        console.log(m);
-        }
-        return m;
-        }
-        
-        
-        function ausrechnen() {
-        var eingabe = document.getElementById("eingabefeld").value;
+function ausrechnen() {
+        var eingabe = document.getElementById("eingabe").value;
         
         var ausgabe = faculty(eingabe);   
-        document.getElementById("ausgabefeld").value = ausgabe;
+        document.getElementById("ausgabe").value = ausgabe;
 }
-/ausrechnen();/
-
-document.getElementById("Rechner").addEventListener("click",ausrechnen); 
-*/

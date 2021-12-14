@@ -1,23 +1,12 @@
-function faculty_uebung( eineZahl ) {
-var n = 1; // Zum hochzaehlen
-var m = 1; // Ergebnis (Fakultät)
-while ( n <= eineZahl ) {
-m = m * n;
-n = n + 1;
-console.log(m);
-}
-return m;
-};
-
-var dieZahl = document.getElementById("eingabe").value;
-document.getElementById("ausgabe").value = faculty_uebung (dieZahl)
-
+/*
 function test(){
     console.log("Test Funktion")
 }
 
 document.getElementById("button").addEventListener("click", test);
+*/
 
+document.getElementById("button").addEventListener("click",ausrechnen); 
 
 var Zahlenwerte = ""
 
@@ -35,7 +24,7 @@ document.getElementById("Reset").addEventListener("click",appendReset);
 
 function adNumberToTheTextbox (Zahl) {
 Zahlenwerte = Zahlenwerte + Zahl;
-document.getElementById("eingabefeld").value = Zahlenwerte;
+document.getElementById("eingabe").value = Zahlenwerte;
 }
 
 function appendNull() {adNumberToTheTextbox (0);}
@@ -51,7 +40,7 @@ function appendNeun() {adNumberToTheTextbox (9);}
 
 function appendReset() {
 Zahlenwerte = " ";
-document.getElementById("eingabefeld").value = Zahlenwerte;
+document.getElementById("eingabe").value = Zahlenwerte;
 }
 
 function faculty( zahl ) {
@@ -166,4 +155,5 @@ document.getElementById("B4").addEventListener("click",appendVier);
 }
 /ausrechnen();/
 
-document.getElementById("Rechner").addEventListener("click",ausrechnen); */
+document.getElementById("Rechner").addEventListener("click",ausrechnen); 
+*/
