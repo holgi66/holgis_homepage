@@ -134,7 +134,7 @@ function AuswahlZeichen2 (Operator) {
 */
 
 function ausrechnen() {                    /*diese rechnet das Ergebis der Fakultät aus und schreibt es in das Ausgabefeld */
-     var eingabe = document.getElementById("eingabe").value;
+     var eingabe = document.getElementById("rechterOperator").value;
 
      var ausgabe = faculty(eingabe);
      document.getElementById("Rechner").value = ausgabe;
