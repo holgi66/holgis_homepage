@@ -9,16 +9,16 @@
 var Zahlenwerte = ""
 
 /* Tastendruck auswerten */
-document.getElementById("B0").addEventListener("click",appendNull); /*nimmt den Button raus und verknüpft mit der Funktion*/
-document.getElementById("B1").addEventListener("click",appendEins);
-document.getElementById("B2").addEventListener("click",appendZwei);
-document.getElementById("B3").addEventListener("click",appendDrei);
-document.getElementById("B4").addEventListener("click",appendVier);
-document.getElementById("B5").addEventListener("click",appendFuenf);
-document.getElementById("B6").addEventListener("click",appendSechs);
-document.getElementById("B7").addEventListener("click",appendSieben);
-document.getElementById("B8").addEventListener("click",appendAcht);
-document.getElementById("B9").addEventListener("click",appendNeun);
+document.getElementById("Z0").addEventListener("click",appendNull); /*nimmt den Button raus und verknüpft mit der Funktion*/
+document.getElementById("Z1").addEventListener("click",appendEins);
+document.getElementById("Z2").addEventListener("click",appendZwei);
+document.getElementById("Z3").addEventListener("click",appendDrei);
+document.getElementById("Z4").addEventListener("click",appendVier);
+document.getElementById("Z5").addEventListener("click",appendFuenf);
+document.getElementById("Z6").addEventListener("click",appendSechs);
+document.getElementById("Z7").addEventListener("click",appendSieben);
+document.getElementById("Z8").addEventListener("click",appendAcht);
+document.getElementById("Z9").addEventListener("click",appendNeun);
 document.getElementById("Reset").addEventListener("click",appendReset);
 document.getElementById("plus").addEventListener("click",appendPlus);
 document.getElementById("minus").addEventListener("click",appendMinus);
